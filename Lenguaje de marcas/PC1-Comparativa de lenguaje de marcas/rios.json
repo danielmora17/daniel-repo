@@ -1,0 +1,19 @@
+{
+"Titulo principal":"Valor",
+"rios":[
+        {
+           "tituloRio":"Rio Amazonas" ,
+           "parrafoPrimero":"El río Amazonas se encuentra en América del Sur. Su nacimiento se sitúa en los Andes y atraviesa principalmente Perú, Colombia y Brasil. Desemboca en el océano Atlántico.",
+           "parrafoSegundo":"Tiene una longitud aproximada de 6.400 kilómetros y es uno de los ríos con mayor caudal del planeta.",
+           "datos":{
+            "nombre":"Amazonas",
+            "continente":"America del sur",
+            "paises":["Perú", "Colombia", "Brasil"],
+            "longitud":"6.400" 
+           }
+        }
+
+    ]
+
+
+}
