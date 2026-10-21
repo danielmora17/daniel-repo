@@ -1,0 +1,8 @@
+package logica;
+
+public class Operadorternario1 {
+	public static void main(String[] args) throws Exception {
+		boolean activo=true;
+		System.out.println(activo ? "ON": "OFF");
+	}
+}

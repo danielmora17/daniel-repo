@@ -1,0 +1,18 @@
+package arrays;
+
+public class arrayej12 {
+
+	public static void main(String[] args) {
+		int []nums= {12, 7, 25, 3, 18};
+		for(int i=0;i<nums.length;i++) {
+			if(nums[i]==3) {
+				System.out.println("Esta en la posicion "+i);
+				break;
+			}else {
+			System.out.println("No esta en la posicion "+i);
+			}
+		}
+
+	}
+
+}

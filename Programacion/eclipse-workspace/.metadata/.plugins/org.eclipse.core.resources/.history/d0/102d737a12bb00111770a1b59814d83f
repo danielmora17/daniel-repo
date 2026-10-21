@@ -1,0 +1,29 @@
+package logica;
+
+public class OPdecisiones1 {
+
+	public static void main(String[] args) {
+		int num = 1;
+		String trocito;
+		boolean x;
+				
+		if(num<-1000000) {
+			trocito="muy negativo";
+		}else if(num<0) {
+			trocito="negativo";
+		} else if(num==0) {
+			trocito="es cero";
+		}else if(num>0) {
+			trocito="positivo";
+		}else {
+			trocito="muy positivo";
+		}
+		if (num % 2==0) {
+		x=true;
+		}
+		System.out.printf("el numero %d es %s%n y es %b",num,trocito,x);
+			
+
+	}
+
+}

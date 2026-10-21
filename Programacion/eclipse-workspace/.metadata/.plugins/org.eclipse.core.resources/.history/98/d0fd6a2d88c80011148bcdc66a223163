@@ -1,0 +1,13 @@
+package pruebabucles1;
+
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		int suma;
+		for(int i=1;i<=30;i++) {
+			int a=i*2;
+			System.out.println(a);
+		}
+	}
+
+}

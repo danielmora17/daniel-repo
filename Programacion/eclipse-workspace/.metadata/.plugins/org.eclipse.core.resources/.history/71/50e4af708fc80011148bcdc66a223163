@@ -1,0 +1,11 @@
+package p1;
+
+public class pruebaarray {
+
+	public static void main(String[] args) {
+		int [] numeros= {3,2,7};
+		System.out.println(numeros.length);
+		System.out.println("Segundo elemento: "+ numeros[1]);
+	}
+
+}

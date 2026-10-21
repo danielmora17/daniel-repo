@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\manana.CNA03P013\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1779293261.index
+898757875.index
+2056474815.index
+856085994.index
+3785900202.index

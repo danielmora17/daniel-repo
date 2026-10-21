@@ -1,0 +1,14 @@
+package pruebabucles1;
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=60;i++) {
+			if(i%4==0 && i!=12) {
+			System.out.println(i);
+			}
+		}
+
+	}
+
+}

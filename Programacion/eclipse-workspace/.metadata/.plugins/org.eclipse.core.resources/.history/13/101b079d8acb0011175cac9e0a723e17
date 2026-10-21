@@ -1,0 +1,15 @@
+package arrays;
+
+public class arrayej13 {
+
+	public static void main(String[] args) {
+	String []nombres= {"Ana", "Guillermo", "Luis", "Marta"};
+	int x=nombres[0].length();
+	for(int i=0;i<nombres.length;i++) {
+	if(x>nombres[i].length()) {}
+	x=nombres[i].length();
+	}
+System.out.println(x);
+	}
+
+}

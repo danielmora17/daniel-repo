@@ -1,0 +1,17 @@
+package arrays;
+
+public class arrayej8 {
+
+	public static void main(String[] args) {
+	int [] nums=new int[10];
+	for(int num:nums) {
+		if(num%2==0) {
+			System.out.println(num+2);	
+		}else {
+			System.out.println(num-2);
+		}
+		
+	}
+	}
+
+}

@@ -1,0 +1,21 @@
+package logica;
+
+public class Operadorternario1 {
+	public static void main(String[] args) throws Exception {
+		int numero=1;
+		System.out.println( numero % 2==0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println( numero++ % 2!=0?numero+" es par":numero+" es impar");
+		System.out.println("Ejercicio 2");
+		int x=-5
+		System.out.printf(x<0 ? %d+"negativo": %d+"positivo");
+
+	}
+}

@@ -1,0 +1,12 @@
+package pruebabucles1;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		for(int i=100;i<=70;i-=3) {
+			System.out.println(i);
+		}
+
+	}
+
+}

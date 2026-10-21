@@ -1,0 +1,15 @@
+package pruebabucles1;
+
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		int suma=0;
+		for(int i=1;i<=30;i++) {
+			
+			suma+=i*i;
+			
+		}
+		System.out.println("La suma de cuadrados de los primeros 30 números naturales es"+suma);
+	}
+
+}

@@ -1,0 +1,22 @@
+package arrays;
+
+public class arrayej12 {
+
+	public static void main(String[] args) {
+		int []nums= {12, 7, 25, 3, 18};
+		boolean encontrado=false;
+		for(int i=0;i<nums.length;i++) {
+			if(nums[i]==3) {
+				System.out.println("Esta en la posicion "+i);
+				encontrado=true;
+				break;
+			}else {
+				encontrado=false;
+			}
+		}
+if(encontrado==false) {
+	System.out.println("No esta");
+}
+	}
+
+}

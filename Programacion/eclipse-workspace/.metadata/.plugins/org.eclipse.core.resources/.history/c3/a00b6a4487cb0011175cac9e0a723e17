@@ -1,0 +1,16 @@
+package arrays;
+
+public class arrayej11 {
+
+	public static void main(String[] args) {
+		int []nums= {3, -6, 7, 2, 8};
+		int x=nums[0];
+		for(int i=0;i<nums.length;i++) {
+		if(x>nums[i]) {
+		x=nums[i];
+		}
+		}
+System.out.println(x);
+	}
+
+}

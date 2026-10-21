@@ -1,0 +1,41 @@
+package logica;
+
+public class OPdecisiones2 {
+public static void main(String []args) {
+	int num = 5;
+	String trocito;
+	String x;
+			
+	if(num<-1000000) {
+		trocito="muy negativo";
+	}else if(num<0) {
+		trocito="negativo";
+	} else if(num==0) {
+		trocito="es cero";
+	}else if(num>0) {
+		trocito="positivo";
+	}else {
+		trocito="muy positivo";
+	}
+	if (num % 2==0) {
+	x="es par";
+
+	}else if (num % 2!=0){
+	x="es impar";
+		if(num % 5==0) {
+			x="es impar y divisible por 5";
+		}else
+			x="es impar y no divisible por 5";
+	}else {
+	x="es cero";
+	}
+	System.out.println(num+" "+x+" también es "+trocito);
+	if(trocito=="positivo") {
+		System.out.println("Cumple todo lo anterior");
+	}else if (trocito==" muy positivo") {
+		System.out.println("Cumple todo lo anterior");
+	}else {
+		System.out.println("No cumple lo anterior");
+	}
+}
+}

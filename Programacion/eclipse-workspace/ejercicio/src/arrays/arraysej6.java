@@ -1,0 +1,25 @@
+package arrays;
+
+public class arraysej6 {
+
+	public static void main(String[] args) {
+	int [] array1= new int[10];
+	for(int i=0;i<10;i++) {
+		array1[i]=i*100+1;
+		
+	}
+	for(int num: array1) {
+		
+		
+	}
+	for(int n=array1.length-1;n>=0;n--) {
+		if(n==0) {
+			System.out.print(array1[n]);
+		}else {
+			System.out.print(array1[n]+"-");
+		}
+		
+		}
+	}
+
+}

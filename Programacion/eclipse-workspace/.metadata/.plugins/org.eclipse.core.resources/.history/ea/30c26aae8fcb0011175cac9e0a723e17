@@ -1,0 +1,18 @@
+package arrays;
+
+public class arrayej13 {
+
+	public static void main(String[] args) {
+	String []nombres= {"Ana", "Guillermo", "Luis", "Marta"};
+	
+	String maslargo=nombres[0];
+	for(String i:nombres) {
+	if(maslargo.length()<i.length()) {
+		maslargo=i;
+	}
+	
+	}
+System.out.println(maslargo);
+	}
+
+}

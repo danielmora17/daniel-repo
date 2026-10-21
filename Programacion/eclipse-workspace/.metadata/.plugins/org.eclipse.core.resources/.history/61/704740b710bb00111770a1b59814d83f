@@ -1,0 +1,15 @@
+package logica;
+
+public class OPdecisiones1 {
+
+	public static void main(String[] args) {
+		int num = -1000000000;
+		String trocito;
+		
+		if(num<-1000000)
+			trocito="muy negativo"
+			
+
+	}
+
+}
